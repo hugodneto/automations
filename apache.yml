@@ -1,0 +1,21 @@
+---
+- name: Automação para Servidor Apache
+  hosts: all
+  become: true 
+  tasks:
+
+  - name: Install Apache 
+    yum:
+      name: httpd
+      state: present
+
+  - name: Start HTTPD and make it Persistent
+    service:
+      name: httpd
+      state: started
+      enabled: yes
+
+  - name: Setting UP indes.html insde directory
+    copy:
+      src: index.html
+      dest: /var/www/html/index.html

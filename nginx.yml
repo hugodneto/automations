@@ -1,0 +1,16 @@
+---
+- name: Automação pra Servidor NGINX
+  hosts: all
+  become: true
+  tasks:
+
+  - name: Install NGINX
+    yum:
+      name: nginx
+      state: latest
+
+  - name: Start NGINX and make it persistent
+      service:
+        name: nginx
+        state: started
+        enabled: yes
