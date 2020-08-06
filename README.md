@@ -1,4 +1,4 @@
-# A collections of Ansible Automations
+# A collection of Ansible Automations
 > This repo brings some handy and simple automations to demonstrate and study Ansible.
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
