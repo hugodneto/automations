@@ -7,3 +7,12 @@
 ## Supporting Info
 
 These automations are for linux environments.
+
+## What do we have here?
+
+    * Apache Setup and Configuration
+    * NGINX Setup 
+    * Firewall Configuration
+    * Selinux Configuration
+    * User Creation
+    * EC2 Amazon Creation and Configuration 
