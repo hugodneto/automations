@@ -1,0 +1,12 @@
+---
+- name: Remove Amazon's automatic repos 
+  hosts: all
+  tasks:
+  
+  - name: Removing Amazon's repos from the machine
+    yum:
+      name: rh-amazon-rhui-client*
+      state: removed
+
+  - name: Cleaning yum's cache
+    command: yum clean all

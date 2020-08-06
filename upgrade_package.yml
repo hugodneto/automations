@@ -1,0 +1,10 @@
+---
+- name: Package Update
+  hosts: all
+  become: true
+  tasks:
+
+  - name: Upgrading all packages
+    yum:
+      name: '*'
+      state: latest

@@ -1,0 +1,12 @@
+---
+- name: Add user with SUDO access to the machine
+  hosts: all
+  tasks:
+
+  - name: Add athena user to wheel group
+    user:
+      name: athena
+      comment: SUDO user
+      password: redhat
+      uid: 666
+      group: wheel

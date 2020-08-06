@@ -1,0 +1,16 @@
+---
+- name: Creating User
+  hosts: all
+  tasks:
+    
+  - name: Creating manutenção group
+    group:
+      name: suporte
+      state: present
+
+  - name: Adding user Manutenção
+    user:
+      name: Manutencao
+      comment: Administrador
+      uid: 1040
+      group: suporte
