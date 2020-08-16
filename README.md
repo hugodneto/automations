@@ -20,4 +20,6 @@ These automations are for linux environments.
 
     * User Creation
     
-    * EC2 Amazon Creation and Configuration 
+    * EC2 Amazon Creation and Configuration
+
+    * Red Hat Insights Setup 
