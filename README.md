@@ -6,7 +6,7 @@
 
 ## Supporting Info
 
-These automations are for linux environments.
+These automations are for linux and windows environments.
 
 ## What do we have here?
 
