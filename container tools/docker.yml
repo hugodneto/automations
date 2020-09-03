@@ -1,0 +1,13 @@
+---
+    - name: Setting up container tools
+      hosts: all
+      tasks:
+    
+       - name: Enableing docker repo 
+         shell: sudo dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+         warn: false
+    
+       - name: Installing docker 
+         dnf:
+           name: docker
+           state: latest
