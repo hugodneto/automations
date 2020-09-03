@@ -7,6 +7,5 @@
      shell: yum module enable -y container-tools:2.0
 
    - name: Installing podman module
-     shell: yum module install -y container-tool:2.0
+     shell: yum module install -y container-tools:2.0
 
-     
