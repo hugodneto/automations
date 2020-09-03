@@ -1,7 +1,6 @@
 ---
 - name: Apache Server Setup
   hosts: all
-  become: true
   tasks:
   
   - name: Install Apache
