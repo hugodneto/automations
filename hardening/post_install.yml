@@ -16,9 +16,9 @@
       group: default
       
   - name: Setting SELinux in permissive mode
-      selinux:
-        policy: targeted
-        state: permissive
+    selinux:
+      policy: targeted
+      state: permissive
         
     - name: Installing Firewalld
       yum:
