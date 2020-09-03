@@ -3,11 +3,10 @@
       hosts: all
       tasks:
     
-       - name: Enableing docker repo 
-         shell: sudo dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
-         warn: false
+      - name: Enableing docker repo 
+        shell: sudo dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
     
-       - name: Installing docker 
-         dnf:
-           name: docker
-           state: latest
+      - name: Installing docker 
+        dnf:
+          name: docker
+          state: latest
