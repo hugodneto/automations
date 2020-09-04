@@ -1,0 +1,12 @@
+---
+- name: Running a docker image
+  hosts: all
+  tasks:
+  
+  - name: Pull Image form Registry
+    docker_image:
+      name: docker://docker.io/library/nextcloud
+      source: pull
+
+  - name: Running container image
+    shell: docker run -d -p 1337:80 nextcloud
