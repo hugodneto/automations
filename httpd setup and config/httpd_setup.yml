@@ -1,6 +1,7 @@
 ---
 - name: Apache Server Setup
   hosts: all
+  gather_facts: False
   tasks:
   
   - name: Install Apache

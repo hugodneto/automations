@@ -1,6 +1,7 @@
 ---
 - name: Running a docker image
   hosts: all
+  gather_facts: False
   tasks:
   
   - name: Pull Image form Registry
