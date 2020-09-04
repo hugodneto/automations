@@ -5,7 +5,7 @@
   
   - name: Pull Image form Registry
     docker_image:
-      name: docker://docker.io/library/nextcloud
+      name: library/nextcloud
       source: pull
 
   - name: Running container image
