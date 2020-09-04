@@ -10,7 +10,7 @@
      image: ami-0a54aef4ef3b5f881
      #region: us-east-2
      keypair_name: linux-key
-     count: 1
+     #count: 1
 
    tasks:  
        
