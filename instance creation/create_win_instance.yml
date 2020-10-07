@@ -3,17 +3,14 @@
    hosts: localhost
    connection: local
    gather_facts: True
-
-
    vars:
      instance_type: t2.micro
      security_group: WinRM-sg
-     image: ami-047b577fb036bfa95
+     image: ami-6ccf9d0a
      region: us-east-1
      vm_name: win
 
-   tasks:  
-       
+   tasks:    
      - name: Create security group
        local_action:
          module: ec2_group
