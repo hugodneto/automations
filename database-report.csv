@@ -1,6 +1,0 @@
-HOSTNAME,IPRIV,IPUB,DATACENTER,OS
-alpha,172.0.10.1,10.30.45.100,hyperion,RHEL 7.4
-beta,172.0.10.2,10.30.45.101,atlas,RHEL 8.1
-pandora,172.0.10.3,10.30.45.102,atlas,RHEL 7.6
-bayonetta,172.0.10.4,10.30.45.103,hyperion,RHEL 8.1
-tesla,172.0.10.5,10.30.45.104,hyperion,RHEL 8.2

@@ -5,14 +5,14 @@
   tasks:
 
   - name: Read from Database Report Sheet
-    community.general.read_csv:
+    read_csv:
       path: database-report.csv
       key: HOSTNAME
       delimiter: ','
     register: machines
     delegate_to: localhost
 
-  - ansible.builtin.debug:
+  - debug:
       msg: "{{ item.value.HOSTNAME }}
             {{ item.value.IPRIV }}
             {{ item.value.IPUB }}
