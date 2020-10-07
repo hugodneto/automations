@@ -1,0 +1,13 @@
+---
+- name: Manipulating Remote Files
+  hosts: all
+  become: yes
+  tasks:
+  - name: Slurp File
+    slurp:
+      src: etc/database-report.csv
+    register: database
+  
+  - name: Read Database Report
+    debug:
+      msg: "{{ database['content'] }}"
