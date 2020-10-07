@@ -1,7 +1,7 @@
 ---
 - name: Manipulating Text files With Ansible
   hosts: all
-  become: yes
+#  become: yes
   tasks:
 
   - name: Copy Database File
