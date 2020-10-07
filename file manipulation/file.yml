@@ -7,14 +7,11 @@
   - name: Copy Database File
     copy:
       src: database-report.csv
-      dest: /etc/
-      owner: root
-      group: root
-      mode: '0644'
-  
+      dest: /etc
+      
   - name: Read from Database Report Sheet
     read_csv:
-      path: /etc/database-report.csv
+      path: database-report.csv
       key: HOSTNAME
       delimiter: ','
     register: machines
