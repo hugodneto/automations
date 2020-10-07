@@ -3,7 +3,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-brightgreen)](http://badges.mit-license.org)
 <img src="https://img.shields.io/github/last-commit/abass0/automations" alt="GitHub last commit">
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/abass0/automations/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-brightgreen)](https://github.com/abass0/automations/graphs/commit-activity)
 
 
 
