@@ -2,7 +2,7 @@
 - name: Manipulating Text files With Ansible
   hosts: all
   vars:
-    key: HOSTNAME
+ #   key: HOSTNAME
 
   tasks:
 
