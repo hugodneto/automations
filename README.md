@@ -3,7 +3,7 @@
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 <img src="https://img.shields.io/github/last-commit/abass0/winrm-tower/master?style=plastic" alt="GitHub last commit">
-![](https://media.giphy.com/media/rFsm3p6zCvScU/giphy.gif)
+
 
 ## Supporting Info
 
@@ -25,5 +25,5 @@ These automations are *mostly* for linux environments. Windows to come.
 
     * Red Hat Insights Setup 
     
-    * File Manipulation 
-   
+    * File Manipulation
+ ![](https://media.giphy.com/media/rFsm3p6zCvScU/giphy.gif)
