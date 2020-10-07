@@ -14,7 +14,7 @@
   
   - name: Read from Database Report Sheet
     read_csv:
-      path: database-report.csv
+      path: /etc/database-report.csv
       key: HOSTNAME
       delimiter: ','
     register: machines
