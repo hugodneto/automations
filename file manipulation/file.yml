@@ -4,6 +4,14 @@
   become: yes
   tasks:
 
+  - name: Copy Database File
+    copy:
+      src: database-report.csv
+      dest: /etc
+      owner: root
+      group: root
+      mode: '0644'
+  
   - name: Read from Database Report Sheet
     read_csv:
       path: database-report.csv
