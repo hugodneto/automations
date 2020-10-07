@@ -7,7 +7,7 @@
   - name: Copy Database File
     copy:
       src: database-report.csv
-      dest: /etc
+      dest: /etc/
       owner: root
       group: root
       mode: '0644'
