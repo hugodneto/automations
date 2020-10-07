@@ -6,13 +6,13 @@
 
 ## Supporting Info
 
-These automations are for linux and windows environments.
+These automations are *mostly* for linux environments. Windows to come. 
 
 ## What do we have here?
 
     * Apache Setup and Configuration
 
-    * NGINX Setup
+    * NGINX Setup (Basic configuration)
 
     * Firewall Configuration
 
@@ -23,3 +23,5 @@ These automations are for linux and windows environments.
     * EC2 Amazon Creation and Configuration
 
     * Red Hat Insights Setup 
+    
+    * File Manipulation ![Alt Text] (<iframe src="https://giphy.com/embed/rFsm3p6zCvScU" width="480" height="224" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/forum-lee-smith-rFsm3p6zCvScU">via GIPHY</a></p>)
