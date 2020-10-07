@@ -14,7 +14,7 @@
   - name: Read from Database Report Sheet
     read_csv:
       path: database-report.csv
-      key: "{{ HOSTNAME }}"
+      key: "{{ key }}"
       delimiter: ','
     register: machines
     delegate_to: localhost
