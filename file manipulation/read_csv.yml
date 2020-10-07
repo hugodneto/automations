@@ -1,9 +1,10 @@
 ---
 - name: Manipulating Text files With Ansible
   hosts: all
-  tasks:
   vars:
     key: HOSTNAME
+
+  tasks:
 
   - name: Copy Database File
     copy:
