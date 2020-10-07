@@ -10,4 +10,4 @@
   
   - name: Read Database Report
     debug:
-      msg: "{{ database['content'] }}"
+      msg: "{{ database['content'] | b64decode }}"
