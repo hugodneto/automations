@@ -5,7 +5,7 @@
   tasks:
   - name: Slurp File
     slurp:
-      src: etc/database-report.csv
+      src: /etc/database-report.csv
     register: database
   
   - name: Read Database Report
