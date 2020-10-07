@@ -24,4 +24,4 @@ These automations are *mostly* for linux environments. Windows to come.
 
     * Red Hat Insights Setup 
     
-    * File Manipulation ![Alt Text] (<iframe src="https://giphy.com/embed/rFsm3p6zCvScU" width="480" height="224" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/forum-lee-smith-rFsm3p6zCvScU">via GIPHY</a></p>)
+    * File Manipulation ![Alt Text](http://gph.is/1UxQ50K)
