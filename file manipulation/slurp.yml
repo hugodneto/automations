@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   vars:
-    src: /etc/hosts
+ #   src: /etc/hosts
   tasks:
   - name: Slurp File
     slurp:
