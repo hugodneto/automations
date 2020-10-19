@@ -3,19 +3,14 @@
    hosts: localhost
    connection: local
    gather_facts: True
-
-
    vars:
-     #instance_type: t2.micro
-     instance_type: "{{ flavor }}"
+     instance_type: t2.micro
      security_group: WinRM-sg
-     image: ami-05bb2dae0b1de90b3
-     #region: sa-east-1
-     region: "{{ regiao }}"
-     vm_name: "{{ hostname }}"
+     image: ami-6ccf9d0a
+     region: us-east-1
+     vm_name: win
 
-   tasks:  
-       
+   tasks:    
      - name: Create security group
        local_action:
          module: ec2_group
@@ -51,9 +46,9 @@
      - name: Create EC2 Windows Instance
        ec2:
          group: "{{ security_group }}"
-         instance_type: "{{ flavor }}"
+         instance_type: "{{ instance_type }}"
          image: "{{ image }}"
-         region: "{{ regiao }}"
+         region: "{{ region }}"
          key_name: windows
          user_data: "{{ lookup('template', 'winrm.j2') }}"
          wait: yes

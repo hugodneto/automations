@@ -1,0 +1,15 @@
+---
+- name: Manipulating Remote Files
+  hosts: all
+  become: yes
+  vars:
+ #   src: /etc/hosts
+  tasks:
+  - name: Slurp File
+    slurp:
+      src: "{{ src }}"
+    register: database
+  
+  - name: File outcome
+    debug:
+      msg: "{{ database['content'] | b64decode }}"
