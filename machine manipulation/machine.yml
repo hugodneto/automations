@@ -1,0 +1,11 @@
+---
+- name: Shutdown Hosts
+  hosts: all
+  become: yes
+  tasks:
+  
+  - name: Shutting down remote hosts
+    shell: shutdown -h now
+
+  - name: Wait for machine to go down
+    local_action: wait_for host={{ ansible_ssh_host }} port=22 state=stopped
