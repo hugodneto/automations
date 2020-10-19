@@ -21,6 +21,7 @@ These automations are *mostly* for linux environments. Windows to come.
 - EC2 Amazon Creation and Configuration
 - Red Hat Insights Setup 
 - File Manipulation ![](https://media.giphy.com/media/rFsm3p6zCvScU/giphy.gif)
+- Machine Manipulation ![](https://media.giphy.com/media/rFsm3p6zCvScU/giphy.gif)
 
 
 
