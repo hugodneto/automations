@@ -7,7 +7,7 @@
    vars:
      #instance_type: t2.micro
      security_group: sec-group-ssh-http-2
-     image: ami-0a54aef4ef3b5f881
+     image: ami-0c82f7789103a1e20
      #region: us-east-2
      keypair_name: linux-key
      #count: 1
