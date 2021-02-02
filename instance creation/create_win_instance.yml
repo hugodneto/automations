@@ -52,7 +52,7 @@
          group: "{{ security_group }}"
          instance_type: "{{ instance_type }}"
          image: "{{ image }}"
-         region: "{{ regiao }}"
+         region: "{{ region }}"
          key_name: windows
          user_data: "{{ lookup('template', 'winrm.j2') }}"
          wait: yes
