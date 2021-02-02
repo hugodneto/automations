@@ -8,7 +8,7 @@
    vars:
      instance_type: t2.micro
      security_group: WinRM-sg
-     image: ami-090eefe14ae160def
+     image: ami-00d1b5cc1e5341681
      region: us-east-2
      count: 1
      vm_name: win0
