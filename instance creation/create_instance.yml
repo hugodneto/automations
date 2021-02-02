@@ -11,6 +11,7 @@
      #region: us-east-2
      keypair_name: linux-key
      #count: 1
+     vm_name: linux
 
    tasks:  
        
@@ -48,6 +49,10 @@
          wait: yes
          region: "{{ region }}"
          count: "{{ count }}"
+         instance_tags:
+           Name: "{{ vm_name }}"
+         count_tag:
+           Name: "{{ vm_name }}"
        register: ec2
      
      - name: Add instances into hosts file
