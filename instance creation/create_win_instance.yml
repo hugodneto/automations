@@ -50,7 +50,7 @@
      - name: Criação da instancia Windows na EC2
        ec2:
          group: "{{ security_group }}"
-         instance_type: "{{ flavor }}"
+         instance_type: "{{ instance_type }}"
          image: "{{ image }}"
          region: "{{ regiao }}"
          key_name: windows
