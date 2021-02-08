@@ -11,7 +11,7 @@
      #region: us-east-2
      keypair_name: linux-key
      #count: 1
-     vm_name: linux
+     #vm_name: linux
 
    tasks:  
        
