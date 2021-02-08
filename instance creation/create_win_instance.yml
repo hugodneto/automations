@@ -76,6 +76,6 @@
      - name: "Adicionar os hosts ao inventário"
        add_host:
          name: win-instance-"{{ item.id }}"
-         ansible_host: "{{ hostname }}"
+         ansible_host: "{{ vm_name }}"
          groups: windows
        with_items: "{{ ec2.instances }}"
