@@ -11,7 +11,7 @@
      image: ami-00d1b5cc1e5341681
      region: us-east-2
      count: 1
-     vm_name: {{ hostname }}
+     vm_name: "{{ hostname }}"
 
    tasks:  
        
