@@ -5,13 +5,13 @@
    gather_facts: False
 
    vars:
-     #instance_type: t2.micro
+     instance_type: t2.micro
      security_group: sec-group-ssh-http-2
      image: ami-03d64741867e7bb94
-     #region: us-east-2
+     region: us-east-2
      keypair_name: linux-key
-     #count: 1
-     #vm_name: linux
+     count: 1
+     vm_name: linux
 
    tasks:  
        
