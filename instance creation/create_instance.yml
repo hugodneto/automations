@@ -9,7 +9,7 @@
      security_group: sec-group-ssh-http-2
      image: ami-03d64741867e7bb94
      region: us-east-2
-     keypair_name: linux-key
+     keypair_name: linux-key-tower
      count: 1
      vm_name: linux
 
