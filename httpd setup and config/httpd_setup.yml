@@ -5,7 +5,7 @@
   tasks:
   
   - name: Install Apache
-    dnf:
+    yum:
       name: httpd
       state: present
       
@@ -15,7 +15,7 @@
       state: started
       enabled: yes
 
-  - name: Putting index.html inside repo
-    copy:
-      src: index.html
-      dest: /var/www/html/index.html
+  #- name: Putting index.html inside repo
+  #  copy:
+  #   src: index.html
+  #    dest: /var/www/html/index.html
