@@ -40,9 +40,9 @@
            - proto: all
              cidr_ip: 0.0.0.0/0
                       
-     - name: Criating EC2 instance
+     - name: Creating EC2 instance
        ec2:
-         key_name: linux-key-tower
+         key_name: keypair-aws-hugolabs
          group: "{{ security_group }}"
          instance_type: "{{ instance_type }}"
          image: "{{ image }}"
