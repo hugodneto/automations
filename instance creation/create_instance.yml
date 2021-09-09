@@ -42,7 +42,7 @@
                       
      - name: Criating EC2 instance
        ec2:
-         key_name: linux-key
+         key_name: linux-key-tower
          group: "{{ security_group }}"
          instance_type: "{{ instance_type }}"
          image: "{{ image }}"
